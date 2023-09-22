@@ -169,12 +169,12 @@
         function pop_Pipa_3(feature, layer) {
             var popupContent = '<table>\
                     <tr>\
-                        <th scope="row">diameter</th>\
-                        <td>' + (feature.properties['Diameter'] !== null ? autolinker.link(feature.properties['diameter'].toLocaleString()) : '') + '</td>\
+                        <th scope="row">Diameter</th>\
+                        <td>' + (feature.properties['diameter'] !== null ? autolinker.link(feature.properties['diameter'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <th scope="row">jenis</th>\
-                        <td>' + (feature.properties['Jenis'] !== null ? autolinker.link(feature.properties['jenis'].toLocaleString()) : '') + '</td>\
+                        <th scope="row">Jenis</th>\
+                        <td>' + (feature.properties['jenis'] !== null ? autolinker.link(feature.properties['jenis'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
                         <td colspan="2">' + (feature.properties['tglpasang'] !== null ? autolinker.link(feature.properties['tglpasang'].toLocaleString()) : '') + '</td>\
